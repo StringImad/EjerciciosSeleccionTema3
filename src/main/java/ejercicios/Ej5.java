@@ -9,5 +9,16 @@ package ejercicios;
  * @author imad
  */
 public class Ej5 {
-    
+
+    public static void main(String[] args) {
+        int numero = 1;
+
+        do {
+            System.out.println("Número: " + numero);
+            numero++;
+        } while (numero < 11);
+        do {
+            System.out.println("Número: " + --numero);
+        } while (numero > 1);
+    }
 }

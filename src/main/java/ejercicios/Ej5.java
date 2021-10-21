@@ -4,6 +4,8 @@
  */
 package ejercicios;
 
+import java.util.Scanner;
+
 /**
  *
  * @author imad
@@ -11,14 +13,15 @@ package ejercicios;
 public class Ej5 {
 
     public static void main(String[] args) {
-        int numero = 1;
-
-        do {
-            System.out.println("Número: " + numero);
-            numero++;
-        } while (numero < 11);
-        do {
-            System.out.println("Número: " + --numero);
-        } while (numero > 1);
+          Scanner teclado = new Scanner(System.in);
+       int n, x;
+        System.out.println("Ingrese el valor final:");
+        n = teclado.nextInt();
+        x = 1;
+       do  {
+            System.out.print(x);
+            System.out.print(" - ");
+            x = x + 1;
+        }while (x <= n);
     }
 }

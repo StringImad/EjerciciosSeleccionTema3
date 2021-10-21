@@ -13,7 +13,6 @@ public class Ej3 {
     public static void main(String[] args) {
         final int NUM_TERMINOS = 25;
         int digitos = 15;
-        int numMulti;
         int contador = 0;
         while (contador != NUM_TERMINOS) {
             System.out.print(digitos+" - ");

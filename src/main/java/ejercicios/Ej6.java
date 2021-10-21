@@ -4,10 +4,25 @@
  */
 package ejercicios;
 
+import java.util.Scanner;
+
 /**
  *
  * @author imad
  */
 public class Ej6 {
-    
+    public static void main(String[] args) {
+       Scanner teclado = new Scanner(System.in);
+       int n, x;
+        System.out.println("Ingrese el valor final:");
+        n = teclado.nextInt();
+        x = 1;
+      
+        
+        for (int i = 0; i < n; i++) {
+             System.out.print(x);
+            System.out.print(" - ");
+            x = x + 1;
+        }
+    }
 }
